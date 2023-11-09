@@ -33,6 +33,7 @@
 								</header>
 
 							<!-- Banner -->
+							<div id="mybg">
 								<section id="banner">
 									<div class="content">
 										<header>
@@ -49,6 +50,7 @@
 										<img src="images/pic10.jpg" alt="" />
 									</span>
 								</section>
+							</div>
 
 							<!-- Section -->
 								<section>
@@ -256,6 +258,21 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta/dist/vanta.birds.min.js"></script>
+<script>
+VANTA.BIRDS({
+  el: "#mybg",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  backgroundColor: 0xffffff
+})
+</script>
 
 	</body>
 </html>
