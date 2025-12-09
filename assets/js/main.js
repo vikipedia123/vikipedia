@@ -279,3 +279,10 @@ _strk.push(function() {
 			});
 
 })(jQuery);
+
+ $(document).ready(function(){
+ 		$('body').css('cursor', 'none');
+    $(document).mousemove(function(e){
+        $('#img').offset({left:e.pageX-40,top:e.pageY-40});    
+    });
+});

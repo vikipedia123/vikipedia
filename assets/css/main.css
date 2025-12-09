@@ -1846,11 +1846,6 @@ button,
   min-height: 100vh; }
 
 
-/*element1*/
-#element1{
-  width: 600px; height: 360px; margin-bottom: 10px
-}
-
 /* Main */
 #main {
   -moz-flex-grow: 1;
